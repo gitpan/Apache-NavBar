@@ -1,0 +1,37 @@
+NAME
+
+   Apache::NavBar - Header, Navigation and Footer simplified for your entire website.
+
+SYNOPSIS
+
+   #######################################
+   #                                     #
+   # httpd.conf                          #
+   #                                     #
+   #######################################
+
+   <Directory /home/httpd/html/>
+    SetHandler perl-script
+    Options +ExecCGI
+    allow from all
+    PerlHandler Apache::NavBar
+    PerlSetVar Header /home/httpd/html/header
+    PerlSetVar NavConf /home/httpd/html/nav.conf
+    PerlSetVar Footer /home/httpd/html/footer
+   </Directory>
+
+DESCRIPTION
+
+   Straight from the Eagle book, with a couple minor additions.
+   Looks for  <!--header--> <!--start--> <!--footer-->
+   in your html code.  A sample nav.conf, header, and footer is
+   included in the distribution.
+
+   A working demo is at http://www.s1te.com
+
+AUTHOR
+
+   Authors: Writing Apache Modules with Perl and C, by Lincoln Stein
+   and Doug MacEachern (Eagle book).
+
+   Maintenance: BarracodE <BarracodE@CPAN.org>

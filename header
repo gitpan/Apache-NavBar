@@ -1,0 +1,35 @@
+<meta name="Description" content="s1te, a home for premier webmasters and illustrations, sample web sites and virtual
+ portfolios">
+<meta name="Keywords" content="site, website, webmaster, illustrations, illustrator, artist, 
+portfolio, graphic, designer, artist, web, computer, artist, 3d, day, design, photoshop">
+<meta name="Pragma" content="No-Cache">
+<meta name="Expires" content="0">
+
+<STYLE>
+BODY {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color:c0c0c0;}
+TD {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; text-decoration: none; color:black;}
+.h3 {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 20pt; color:white;}
+.highlight {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; text-decoration: none; color:white;}
+.small { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; color:black; }
+a:link {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; text-decoration: none; color:yellow;}
+a:visited {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; text-decoration: none; color:yellow;}
+a:active {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; text-decoration: underline; color: white;}
+a:hover {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; text-decoration: underline; color: white;}
+.savethiscolor {ffff99}
+</STYLE>
+
+<body TOPMARGIN=0 RIGHTMARGIN=0 BOTTOMMARGIN=0 LEFTMARGIN=0 MARGINHEIGHT=0 MARGINWIDTH=0 bgcolor=cccc9 link=red vlink=red>
+
+
+
+
+<table width=100% border=0 cellpadding=0 cellspacing=0>
+<TR><TD valign=top bgcolor=cccc9>
+<table width=100% border=0 cellpadding=5 cellspacing=0>
+<TR><TD height=700 bgcolor=cccc9 valign=top>
+<a href="http://www.s1te.com/">
+<img src=/Images/s!te.gif border=0 alt="all your babes are belong to us"></a>
+<center>The home for Web<BR>Developers since 1998</center>
+<BR>
+<BR>
+<BR>
