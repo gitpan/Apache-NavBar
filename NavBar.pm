@@ -1,5 +1,4 @@
 package Apache::NavBar;
-
 # file Apache/NavBar.pm
 
 use strict;
@@ -7,8 +6,8 @@ use Apache::Constants qw(:common);
 use Apache::File;
 use vars qw($VERSION);
 
-# $Id: NavBar.pm,v 0.02 2001/11/16 12:31:01 barracode Exp $
-$VERSION = '0.02';
+# $Id: NavBar.pm,v 0.03 2001/11/17 12:31:01 barracode Exp $
+$VERSION = '0.03';
 
 my %Bars = ();
 
@@ -180,12 +179,39 @@ __END__
 	 PerlSetVar Footer /home/httpd/html/footer
 	</Directory>
 
+	#######################################
+	#                                     #
+	# index.html                          #
+	#                                     #
+	#######################################
+
+	<html>
+	<head>
+	<title>My webpage</title>
+
+	<!--header-->
+
+	<!--start-->
+
+	<H1>Welcome</H1>
+	<P>Here's some content for my webpage.</P>  
+
+	<!--footer-->
+
+
+
 =head1 DESCRIPTION
 
 	Straight from the Eagle book, with a couple minor additions.
 	Looks for  <!--header--> <!--start--> <!--footer-->  
-	in your html code.  A sample nav.conf, header, and footer is 
-	included in the distribution.
+	in your html code.  The idea is to put as much into the config files, 
+	leaving only content for each html page.  This makes it very simple for 
+	users to update content without digging through javascript, tables & navigation 
+	code. A sample nav.conf, header, and footer is included in the distribution.
+	Taylor these to your website.
+
+	This can also be acheived through server side includes, but you won't 
+	have the nice highlight effect.
 
 	A working demo is at http://www.s1te.com
 
